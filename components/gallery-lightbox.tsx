@@ -32,11 +32,11 @@ export function GalleryLightbox({ images }: GalleryLightboxProps) {
     }
   };
 
-  const handleKeyDown = (e: KeyboardEvent) => {
-    if (e.key === "Escape") setSelectedId(null);
-    if (e.key === "ArrowLeft") goToPrevious();
-    if (e.key === "ArrowRight") goToNext();
-  };
+  // const handleKeyDown = (e: KeyboardEvent) => {
+  //   if (e.key === "Escape") setSelectedId(null);
+  //   if (e.key === "ArrowLeft") goToPrevious();
+  //   if (e.key === "ArrowRight") goToNext();
+  // };
 
   return (
     <>
@@ -69,7 +69,7 @@ export function GalleryLightbox({ images }: GalleryLightboxProps) {
         <div
           className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
           onClick={() => setSelectedId(null)}
-          onKeyDown={handleKeyDown}
+          // onKeyDown={handleKeyDown}
           role="dialog"
           aria-modal="true"
         >
