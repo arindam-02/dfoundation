@@ -67,13 +67,13 @@ export function Footer() {
 
             <ul className="space-y-2 text-xs ">
               <li className="text-gray-400 hover:text-white transition-colors">
-                Email: info@dfoundation.org
+                Email: dakshinamurtyfoundation@gmail.com
               </li>
               <li className="text-gray-400 hover:text-white transition-colors">
                 Phone: +91 89455 72020
               </li>
               <li className="text-gray-400 hover:text-white transition-colors">
-                Address: Hizlock More, Bagnan, West Bengal, Howrah, 711303
+                Address: Panitras, Bagnan, West Bengal, Howrah, 711303
               </li>
             </ul>
           </div>

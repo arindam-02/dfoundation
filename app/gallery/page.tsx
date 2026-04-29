@@ -40,20 +40,18 @@ const Gallery = () => {
                 {[
                   {
                     title: "Education Programs",
-                    count: "80+",
-                    description:
-                      "Schools built and supported, reaching 50,000+ students",
+                    count: "10+",
+                    description: "Schools built and supported",
                   },
                   {
                     title: "Healthcare Initiatives",
-                    count: "50+",
-                    description:
-                      "Medical camps conducted, 100,000+ people treated",
+                    count: "4+",
+                    description: "Medical camps conducted",
                   },
                   {
                     title: "Environmental Projects",
-                    count: "75+",
-                    description: "Tree planting drives, 500,000+ trees planted",
+                    count: "6+",
+                    description: "Tree planting drives",
                   },
                 ].map((item) => (
                   <div
