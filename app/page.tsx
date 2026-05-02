@@ -1,19 +1,9 @@
 import { Star } from "lucide-react";
-import Image from "next/image";
 
 const HomePage = () => {
   return (
     <>
       <section className="min-h-screen w-full md:max-w-10/12 mx-auto  px-5 pt-10">
-        {/* <Image
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJ1c3R8ZW58MHx8MHx8fDA%3D"
-          alt="bannerImage"
-          // style={{ objectFit: "cover" }}
-          width={3000}
-          height={300}
-          priority
-          // className="bg-linear-to-r from-white via-rose-700 to-white"
-        /> */}
         {/* Mission & Vision Section */}
         <section className="py-12 md:py-20 px-4">
           {/* <div className="max-w-10/12 mx-auto text-justify"> */}
