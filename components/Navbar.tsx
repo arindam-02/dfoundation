@@ -1,5 +1,5 @@
 "use client";
-import { navLinks } from "@/app/Utils/constants";
+import { navLinks } from "@/app/routes/route";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +12,9 @@ const Navbar = () => {
     <>
       <header className="w-full mx-auto sticky top-0 z-50  border-b backdrop-blur-2xl bg-background/50 ">
         <div className="flex items-center justify-between md:w-10/12 mx-auto">
-          <Image src={Logo} alt="logo" width={120} height={120} />
+          <Link href="/">
+            <Image src={Logo} alt="logo" width={120} height={120} />
+          </Link>
 
           <div className="flex justify-center items-center gap-7">
             {/* Desktop Navigations */}
