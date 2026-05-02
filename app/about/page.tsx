@@ -15,7 +15,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12">
             {/* left */}
             <div>
-              <h2 className="text-3xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl font-bold text-gray-700 mb-4">
                 Our Mission
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6 indent-10">
@@ -33,7 +33,7 @@ const About = () => {
 
             {/* right */}
             <div>
-              <h2 className="text-3xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl font-bold text-gray-700 mb-4">
                 Our Vision
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6 indent-10">

@@ -53,10 +53,10 @@ export const teamMembers = [
 export const services = [
   {
     id: 1,
-    title: "Community Development",
+    title: "Education & Skills",
     description:
-      "Empowering local communities through education, healthcare, and economic opportunities.",
-    icon: "🌍",
+      "Providing quality education and vocational training to underserved populations.",
+    icon: "📚",
   },
   {
     id: 2,
@@ -67,11 +67,12 @@ export const services = [
   },
   {
     id: 3,
-    title: "Education & Skills",
+    title: "Community Development",
     description:
-      "Providing quality education and vocational training to underserved populations.",
-    icon: "📚",
+      "Empowering local communities through education, healthcare, and economic opportunities.",
+    icon: "🌍",
   },
+
   {
     id: 4,
     title: "Healthcare Access",
