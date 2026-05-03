@@ -1,5 +1,6 @@
 "use client";
 
+import DonateSectionBtn from "@/components/DonateSectionBtn";
 import { GalleryLightbox } from "@/components/gallery-lightbox";
 import Hero from "@/components/Hero";
 import { galleryImages } from "@/lib/constants";
@@ -14,13 +15,13 @@ const Gallery = () => {
         />
 
         {/* Gallery Section */}
-        <section className="py-12 md:py-20 px-4">
+        <div className="py-12 md:py-20 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-gray-700 mb-4">
                 Projects & Initiatives
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-xs md:text-lg text-muted-foreground max-w-2xl mx-auto">
                 Click on any image to view it in full size. These moments
                 represent the real impact we create together.
               </p>
@@ -30,9 +31,9 @@ const Gallery = () => {
           </div>
 
           {/* Impact Summary */}
-          <section className="py-12 md:py-20 px-4 bg-card border-t border-border">
+          <div className="py-12 md:py-20 px-4 bg-card border-t border-border">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+              <h2 className="text-lg sm:text-lg md:text-2xl font-bold text-gray-700 mb-8 text-center">
                 Stories From The Field
               </h2>
 
@@ -71,8 +72,10 @@ const Gallery = () => {
                 ))}
               </div>
             </div>
-          </section>
-        </section>
+          </div>
+        </div>
+
+        <DonateSectionBtn />
       </section>
     </>
   );

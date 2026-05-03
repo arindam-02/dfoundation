@@ -1,3 +1,4 @@
+import DonateSectionBtn from "@/components/DonateSectionBtn";
 import Hero from "@/components/Hero";
 import { ServiceCard } from "@/components/ServiceCard";
 import { services } from "@/lib/constants";
@@ -143,9 +144,9 @@ const Services = () => {
         </div>
 
         {/* How We Work */}
-        <section className="py-12 md:py-20 px-4">
+        <div className="py-12 md:py-20 px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
+            <h2 className="text-xl md:text-3xl font-bold text-lime-700 mb-12 text-center">
               Our Approach
             </h2>
 
@@ -192,7 +193,7 @@ const Services = () => {
                   <div className="w-16 h-16 bg-linear-to-br from-lime-700 to-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
                     {item.step}
                   </div>
-                  <h3 className="font-bold text-lg text-foreground mb-2">
+                  <h3 className="font-bold text-lg text-gray-600 mb-2">
                     {item.title}
                   </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
@@ -202,8 +203,10 @@ const Services = () => {
               ))}
             </div>
           </div>
-        </section>
+        </div>
       </div>
+
+      <DonateSectionBtn />
     </section>
   );
 };

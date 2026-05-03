@@ -1,3 +1,4 @@
+import DonateSectionBtn from "@/components/DonateSectionBtn";
 import { ServiceCard } from "@/components/ServiceCard";
 import { services } from "@/lib/constants";
 import { Star } from "lucide-react";
@@ -7,7 +8,7 @@ const HomePage = () => {
     <>
       <section className="min-h-screen w-full md:max-w-10/12 mx-auto  px-5 pt-10">
         {/* Mission & Vision Section */}
-        <section className="pt-12 md:py-20 px-4">
+        <div className="pt-12 md:py-20 px-4">
           {/* <div className="max-w-10/12 mx-auto text-justify"> */}
           <div className="max-w-7xl mx-auto md:w-full">
             <div className="md:flex justify-start md:gap-3  mb-0 py-0 ">
@@ -82,10 +83,10 @@ const HomePage = () => {
               <p></p>
             </div>
           </div>
-        </section>
+        </div>
 
         {/* Services Section */}
-        <section className="pb-12 md:py-20 px-4">
+        <div className="pb-12 md:py-20 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-700">
@@ -108,7 +109,9 @@ const HomePage = () => {
               ))}
             </div>
           </div>
-        </section>
+        </div>
+
+        <DonateSectionBtn />
       </section>
     </>
   );

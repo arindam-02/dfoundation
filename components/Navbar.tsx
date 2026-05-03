@@ -30,7 +30,7 @@ const Navbar = () => {
               ))}
             </nav>
             {/* Donate button */}
-            <CustomButton title={"Donate Us"} />
+            <CustomButton title={"Donate Now"} url={"/donate"} />
 
             {/* Mobile menu Button */}
             <ToggleMenuBtn />

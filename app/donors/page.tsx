@@ -1,4 +1,8 @@
+import CustomButton from "@/components/CustomButton";
+import DonateSectionBtn from "@/components/DonateSectionBtn";
+import DonorCard from "@/components/DonorCard";
 import Hero from "@/components/Hero";
+import { advisoryMembers } from "@/lib/constants";
 import React from "react";
 
 const Donorlist = () => {
@@ -10,24 +14,27 @@ const Donorlist = () => {
           subtitle="Help us continue our work by making a donation that truly matters"
         />
 
-        <div className="max-w-10/12 mx-auto py-10">
-          <p className="text-xs md:text-lg leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-            reiciendis pariatur. Veritatis commodi maiores sapiente at autem
-            libero odio voluptates quibusdam, eum dicta eaque quia cum optio
-            odit distinctio voluptatum eius nemo aperiam labore laborum
-            inventore soluta. Repellendus amet aut rem delectus, vel debitis
-            maiores quas natus praesentium dicta quis ex et sapiente alias nihil
-            at eligendi, doloremque sit? Saepe natus odit quae esse? Quos soluta
-            architecto ut? Delectus aliquid magni voluptatibus? Quibusdam ea
-            beatae ipsum dolorem ex illum voluptas ipsa quis. Ab, placeat iure!
-            Amet illo beatae exercitationem nobis sapiente tempore quaerat,
-            mollitia deserunt voluptatem minima iusto repellendus ducimus
-            accusamus nemo necessitatibus, sunt quod? Illo magnam id sunt, nam
-            molestiae fugiat reiciendis? Unde, ab reiciendis. Suscipit minima
-            magni quod, alias beatae rem?
-          </p>
+        <div className="py-12 md:py-20 px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl md:text-4xl font-bold text-lime-800 mb-4">
+                With Gratitude to Our Donors
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {advisoryMembers.map((member) => (
+                <DonorCard
+                  key={member.id}
+                  name={member.name}
+                  location="kolkata"
+                />
+              ))}
+            </div>
+          </div>
         </div>
+
+        <DonateSectionBtn />
       </section>
     </>
   );

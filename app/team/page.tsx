@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import TeamCard from "@/components/TeamCard";
-import { teamMembers } from "@/lib/constants";
+import { advisoryMembers, teamMembers } from "@/lib/constants";
 import React from "react";
 
 const Team = () => {
@@ -12,17 +12,40 @@ const Team = () => {
           subtitle="Dedicated professionals are working together to create meaningful change and sustainable impact in communities."
         />
 
-        {/* Team Members Grid */}
+        {/* Core Team Members  */}
         <section className="py-12 md:py-20 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-lime-800 mb-4">
                 Core Team
               </h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {teamMembers.map((member) => (
+                <TeamCard
+                  key={member.id}
+                  name={member.name}
+                  role={member.role}
+                  // bio={member.bio}
+                  image={member.image}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Advisory Commitee Members  */}
+        <section className="py-12 md:py-20 px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-lime-800 mb-4">
+                Council of Advisors
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {advisoryMembers.map((member) => (
                 <TeamCard
                   key={member.id}
                   name={member.name}
@@ -97,7 +120,7 @@ const Team = () => {
         {/* Team Values */}
         <section className="py-12 md:py-20 px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
+            <h2 className="text-3xl font-bold text-lime-800 mb-12 text-center">
               What Our Team Believes In
             </h2>
 
@@ -142,7 +165,7 @@ const Team = () => {
               ].map((value) => (
                 <div key={value.title} className="text-center">
                   <div className="text-5xl mb-4">{value.emoji}</div>
-                  <h3 className="text-lg font-bold text-foreground mb-2">
+                  <h3 className="text-lg font-bold text-gray-600 mb-2">
                     {value.title}
                   </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">

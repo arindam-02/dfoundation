@@ -4,7 +4,6 @@ import { navLinks } from "@/app/utils/constants";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-import CustomButton from "./CustomButton";
 
 const ToggleMenuBtn = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +19,7 @@ const ToggleMenuBtn = () => {
 
       {/* {isOpen && ( */}
       <nav
-        className={`md:hidden pb-4 space-y-2 absolute left-0 top-26 flex flex-col bg-amber-100  h-screen overflow-hidden transition-all duration-300 ease-in-out min-w-full items-center
+        className={`md:hidden pb-4 space-y-2 absolute left-0 top-26 flex flex-col bg-linear-to-b from-white via-lime-200 to-lime-300  h-screen overflow-hidden transition-all duration-300 ease-in-out min-w-full items-center
         ${
           isOpen
             ? "opacity-100 translate-y-0 max-h-screen"
@@ -32,7 +31,7 @@ const ToggleMenuBtn = () => {
           <Link
             key={link.href}
             href={link.href}
-            className="mt-4 px-3 py-2 text-sm font-medium rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-colors bg-amber-200 min-w-1/2 flex items-center justify-center"
+            className="mt-4 px-3 py-2 text-sm font-semibold rounded-md  text-white hover:bg-accent hover:text-accent-foreground transition-colors bg-linear-to-bl from-lime-700 to-cyan-950 min-w-1/2 flex items-center justify-center"
             onClick={() => setIsOpen(false)}
           >
             {link.label}

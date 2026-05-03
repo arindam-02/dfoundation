@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
         title="About Foundation"
         subtitle="Our mission is to create sustainable change and empower communities worldwide through innovative programs and partnerships."
       />
+
       {/* Mission & Vision Section */}
       <section className="py-12 md:py-20 px-4">
         <div className="max-w-4xl mx-auto">
@@ -23,11 +25,6 @@ const About = () => {
                 through collaborative initiatives, education, healthcare access,
                 and environmental stewardship. We believe that when communities
                 are empowered, lasting change becomes possible.
-              </p>
-              <p className="text-xs md:text-lg text-muted-foreground leading-relaxed indent-10">
-                Since our founding, we have impacted over 500,000 lives across
-                25 countries, touching education, healthcare, environment, and
-                community development sectors.
               </p>
             </div>
 
