@@ -20,6 +20,7 @@ const Contact = () => {
       {/* Contact Section */}
       <section className="py-12 md:py-20 px-4">
         <div className="max-w-6xl mx-auto">
+          {/* <div className="grid md:grid-cols-2 gap-12 mb-10"> */}
           <div className="grid md:grid-cols-2 gap-12 mb-10">
             {/* Contact Information */}
             <div>
@@ -85,12 +86,12 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div>
+            {/* <div>
               <h2 className="text-xl md:text-2xl text-lime-800 font-bold  mb-8">
                 Send us a Message
               </h2>
 
-              {/* <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label
                     htmlFor="name"
@@ -202,8 +203,8 @@ const Contact = () => {
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </button>
-              </form> */}
-            </div>
+              </form>
+            </div> */}
           </div>
 
           {/* Donation Section */}
@@ -211,11 +212,11 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className="w-8/12 mx-auto mb-20">
+      <div className="w-10/12 mx-auto mb-20">
         <h2 className="text-lg md:text-2xl text-lime-800 font-semibold text-center">
           Frequently Asked Questions
         </h2>
-        <Accordion defaultValue={["why"]} className="max-w-7xl">
+        <Accordion defaultValue={["why"]} className="max-w-5xl mx-auto">
           {faqs &&
             faqs.map((faq) => (
               <AccordionItem value={faq.value} key={faq.id}>
