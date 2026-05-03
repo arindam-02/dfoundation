@@ -4,7 +4,7 @@ export const teamMembers = [
     name: "Shyamaprasad Samanta",
     role: "President",
     // bio: "Leading DFoundation with 15+ years of NGO experience",
-    image: "/team/member-2.jpg",
+    image: "/team/soumen.png",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const teamMembers = [
     name: "Shreya Ghoshal",
     role: "Treasurer",
     // bio: "Ensuring transparency and effective resource allocation",
-    image: "/team/member-4.jpg",
+    image: "/team/shreya.jpg",
   },
   {
     id: 5,
