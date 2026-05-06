@@ -4,7 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import InfoHeader from "@/components/InfoHeader";
+// import InfoHeader from "@/components/InfoHeader";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -42,7 +42,7 @@ export default function RootLayout({
       )}
     >
       <body className="min-h-full flex flex-col ">
-        <InfoHeader />
+        {/* <InfoHeader /> */}
         <Navbar />
         {children}
         <Footer />

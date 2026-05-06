@@ -11,14 +11,14 @@ export const teamMembers = [
     name: "Himadri Sekhar Adak",
     role: "Vice President",
     // bio: "Oversees community development and sustainability initiatives",
-    image: "/team/member-1.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 3,
     name: "Iti Mohishal",
     role: "Secretary",
     // bio: "Building international collaborations for greater impact",
-    image: "/team/member-3.jpg",
+    image: "/team/iti.jpg",
   },
   {
     id: 4,
@@ -32,62 +32,62 @@ export const teamMembers = [
     name: "Sanchari Sen Adak",
     role: "Trustee",
     // bio: "Ensuring transparency and effective resource allocation",
-    image: "/team/member-4.jpg",
+    image: "/assets/avatar2.png",
   },
   {
     id: 6,
     name: "Moumita Palui",
     role: "Trustee",
     // bio: "Ensuring transparency and effective resource allocation",
-    image: "/team/member-4.jpg",
+    image: "/assets/avatar2.png",
   },
   {
     id: 7,
     name: "Shrabani Sardar",
     role: "Trustee",
     // bio: "Ensuring transparency and effective resource allocation",
-    image: "/team/member-4.jpg",
+    image: "/assets/avatar2.png",
   },
 ];
 export const advisoryMembers = [
   {
     id: 1,
-    name: "Satyavrata Mohishal",
+    name: "Satyabrata Mohishal",
     role: "Finance & Compliance",
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 2,
     name: "Supriyo Samanta",
     role: "Communications & Outreach",
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 3,
     name: "Arindam Das",
     role: "Digital & Technology",
 
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 4,
     name: "Debabrata Mohisal",
     role: "Strategy & Operations",
 
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 5,
     name: "Sibabrasad Samanta",
     role: "Strategy & Operations",
 
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
   {
     id: 6,
     name: "Rajkamal Bhowmick",
     role: "Strategy & Operations",
-    image: "/team/member-2.jpg",
+    image: "/assets/avatar1.png",
   },
 ];
 
@@ -249,5 +249,43 @@ export const faqs = [
     question: "Can I partner with Dakshinamurty Foundation?",
     answer:
       "Absolutely! We actively seek partnerships with organizations aligned with our mission. Contact us to discuss potential collaboration opportunities.",
+  },
+];
+
+export const donorList = [
+  {
+    id: 1,
+    name: "Satyabrata Mohishal",
+    role: "Finance & Compliance",
+    image: "/assets/avatar1.png",
+    location: "Bagnan",
+  },
+  {
+    id: 2,
+    name: "Supriyo Samanta",
+    role: "Communications & Outreach",
+    image: "/assets/avatar1.png",
+    location: "Bagnan",
+  },
+  {
+    id: 3,
+    name: "Debabrata Mohisal",
+    role: "Strategy & Operations",
+    image: "/assets/avatar1.png",
+    location: "Bagnan",
+  },
+  {
+    id: 4,
+    name: "Sibabrasad Samanta",
+    role: "Strategy & Operations",
+    image: "/assets/avatar1.png",
+    location: "Bagnan",
+  },
+  {
+    id: 5,
+    name: "Rajkamal Bhowmick",
+    role: "Strategy & Operations",
+    image: "/assets/avatar1.png",
+    location: "Bagnan",
   },
 ];

@@ -2,7 +2,7 @@ import CustomButton from "@/components/CustomButton";
 import DonateSectionBtn from "@/components/DonateSectionBtn";
 import DonorCard from "@/components/DonorCard";
 import Hero from "@/components/Hero";
-import { advisoryMembers } from "@/lib/constants";
+import { donorList } from "@/lib/constants";
 import React from "react";
 
 const Donorlist = () => {
@@ -23,11 +23,11 @@ const Donorlist = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {advisoryMembers.map((member) => (
+              {donorList.map((donor) => (
                 <DonorCard
-                  key={member.id}
-                  name={member.name}
-                  location="kolkata"
+                  key={donor.id}
+                  name={donor.name}
+                  location={donor.location}
                 />
               ))}
             </div>
