@@ -206,7 +206,7 @@ const Services = () => {
         </div>
       </div>
 
-      <DonateSectionBtn />
+      {/* <DonateSectionBtn /> */}
     </section>
   );
 };

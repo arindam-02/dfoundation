@@ -4,7 +4,7 @@ import { navLinks } from "@/app/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/assets/logo/logo.png";
-import CustomButton from "./CustomButton";
+// import CustomButton from "./CustomButton";
 import ToggleMenuBtn from "./ToggleMenuBtn";
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
               ))}
             </nav>
             {/* Donate button */}
-            <CustomButton title={"Donate Now"} url={"/donate"} />
+            {/* <CustomButton title={"Donate Now"} url={"/donate"} /> */}
 
             {/* Mobile menu Button */}
             <ToggleMenuBtn />

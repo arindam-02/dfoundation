@@ -75,7 +75,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        <DonateSectionBtn />
+        {/* <DonateSectionBtn /> */}
       </section>
     </>
   );

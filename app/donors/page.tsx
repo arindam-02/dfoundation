@@ -34,7 +34,7 @@ const Donorlist = () => {
           </div>
         </div>
 
-        <DonateSectionBtn />
+        {/* <DonateSectionBtn /> */}
       </section>
     </>
   );

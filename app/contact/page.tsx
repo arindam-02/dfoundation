@@ -208,7 +208,7 @@ const Contact = () => {
           </div>
 
           {/* Donation Section */}
-          <DonateSectionBtn />
+          {/* <DonateSectionBtn /> */}
         </div>
       </section>
 

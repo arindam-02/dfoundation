@@ -111,7 +111,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <DonateSectionBtn />
+        {/* <DonateSectionBtn /> */}
       </section>
     </>
   );

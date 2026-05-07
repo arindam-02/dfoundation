@@ -49,14 +49,14 @@ export function Footer() {
                   Gallery
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/donate"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Donate Us
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
