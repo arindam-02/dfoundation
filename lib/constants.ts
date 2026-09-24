@@ -6,13 +6,13 @@ export const teamMembers = [
     // bio: "Leading DFoundation with 15+ years of NGO experience",
     image: "/team/soumen.png",
   },
-  {
-    id: 2,
-    name: "Himadri Sekhar Adak",
-    role: "Vice President",
-    // bio: "Oversees community development and sustainability initiatives",
-    image: "/assets/avatar1.png",
-  },
+  // {
+  //   id: 2,
+  //   name: "Himadri Sekhar Adak",
+  //   role: "Vice President",
+  //   // bio: "Oversees community development and sustainability initiatives",
+  //   image: "/assets/avatar1.png",
+  // },
   {
     id: 3,
     name: "Iti Mohishal",
@@ -27,13 +27,13 @@ export const teamMembers = [
     // bio: "Ensuring transparency and effective resource allocation",
     image: "/team/shreya.jpg",
   },
-  {
-    id: 5,
-    name: "Sanchari Sen Adak",
-    role: "Trustee",
-    // bio: "Ensuring transparency and effective resource allocation",
-    image: "/assets/avatar2.png",
-  },
+  // {
+  //   id: 5,
+  //   name: "Sanchari Sen Adak",
+  //   role: "Trustee",
+  //   // bio: "Ensuring transparency and effective resource allocation",
+  //   image: "/assets/avatar2.png",
+  // },
   {
     id: 6,
     name: "Moumita Palui",
